@@ -21,5 +21,6 @@ HSYNC  	16pc    	96pc	48pc
 VSYNC   10pc	    2pc	  33pc
 
 
+![Signal-Timing-Diagram](https://github.com/Nancy-Chauhan/Implementing-VGA-interface-with-verilog/blob/master/signal_timing_diagram.jpg)
 
 
