@@ -20,6 +20,6 @@ With this resolution I’ll use the following value in pixel clock for the front
 HSYNC  	16pc    	96pc	48pc
 VSYNC   10pc	    2pc	  33pc
 
-![Alt text](/home/nancy/Desktop/signal_timing_diagram.jpg?raw=true "Title")
+
 
 
