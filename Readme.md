@@ -16,9 +16,10 @@ These signals can vary a lot based on resolution/refresh time of the screen, but
 
 With this resolution I’ll use the following value in pixel clock for the front, back porch and sync pulse
          front	  sync	back
+
 HSYNC  	16pc    	96pc	48pc
-VSYNC	  10pc	    2pc	  33pc
+VSYNC   10pc	    2pc	  33pc
 
-
+![Alt text](/home/nancy/Desktop/signal_timing_diagram.jpg?raw=true "Title")
 
 
