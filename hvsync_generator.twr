@@ -1,0 +1,83 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/trce -intstyle ise -v 3 -s 3 -n
+3 -fastpaths -xml hvsync_generator.twx hvsync_generator.ncd -o
+hvsync_generator.twr hvsync_generator.pcf
+
+Design file:              hvsync_generator.ncd
+Physical constraint file: hvsync_generator.pcf
+Device,package,speed:     xc6slx45,csg324,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock clk to Pad
+-------------+-----------------+------------+-----------------+------------+------------------+--------+
+             |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination  |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+-------------+-----------------+------------+-----------------+------------+------------------+--------+
+CounterX<0>  |         8.120(R)|      SLOW  |         4.394(R)|      FAST  |clk_BUFGP         |   0.000|
+CounterX<1>  |         8.082(R)|      SLOW  |         4.364(R)|      FAST  |clk_BUFGP         |   0.000|
+CounterX<2>  |         7.965(R)|      SLOW  |         4.321(R)|      FAST  |clk_BUFGP         |   0.000|
+CounterX<3>  |         8.348(R)|      SLOW  |         4.554(R)|      FAST  |clk_BUFGP         |   0.000|
+CounterX<4>  |         8.305(R)|      SLOW  |         4.533(R)|      FAST  |clk_BUFGP         |   0.000|
+CounterX<5>  |         8.305(R)|      SLOW  |         4.533(R)|      FAST  |clk_BUFGP         |   0.000|
+CounterX<6>  |         7.991(R)|      SLOW  |         4.334(R)|      FAST  |clk_BUFGP         |   0.000|
+CounterX<7>  |         8.121(R)|      SLOW  |         4.403(R)|      FAST  |clk_BUFGP         |   0.000|
+CounterX<8>  |         7.881(R)|      SLOW  |         4.280(R)|      FAST  |clk_BUFGP         |   0.000|
+CounterX<9>  |         7.874(R)|      SLOW  |         4.273(R)|      FAST  |clk_BUFGP         |   0.000|
+CounterY<0>  |         7.755(R)|      SLOW  |         4.180(R)|      FAST  |clk_BUFGP         |   0.000|
+CounterY<1>  |         7.910(R)|      SLOW  |         4.272(R)|      FAST  |clk_BUFGP         |   0.000|
+CounterY<2>  |         8.182(R)|      SLOW  |         4.457(R)|      FAST  |clk_BUFGP         |   0.000|
+CounterY<3>  |         7.921(R)|      SLOW  |         4.300(R)|      FAST  |clk_BUFGP         |   0.000|
+CounterY<4>  |         8.052(R)|      SLOW  |         4.357(R)|      FAST  |clk_BUFGP         |   0.000|
+CounterY<5>  |         8.411(R)|      SLOW  |         4.623(R)|      FAST  |clk_BUFGP         |   0.000|
+CounterY<6>  |         8.367(R)|      SLOW  |         4.628(R)|      FAST  |clk_BUFGP         |   0.000|
+CounterY<7>  |         7.821(R)|      SLOW  |         4.253(R)|      FAST  |clk_BUFGP         |   0.000|
+CounterY<8>  |         8.169(R)|      SLOW  |         4.430(R)|      FAST  |clk_BUFGP         |   0.000|
+inDisplayArea|         7.638(R)|      SLOW  |         4.065(R)|      FAST  |clk_BUFGP         |   0.000|
+vga_h_sync   |         8.081(R)|      SLOW  |         4.264(R)|      FAST  |clk_BUFGP         |   0.000|
+vga_v_sync   |         8.283(R)|      SLOW  |         4.440(R)|      FAST  |clk_BUFGP         |   0.000|
+-------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    3.230|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Sun Jul 22 10:44:22 2018 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 435 MB
+
+
+
